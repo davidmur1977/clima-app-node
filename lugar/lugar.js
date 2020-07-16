@@ -8,7 +8,6 @@ const getLugarLatLng = async(dir) => {
 
     const instance = axios.create({
         baseURL: `https://devru-latitude-longitude-find-v1.p.rapidapi.com/latlon.php?location=${encodeUrl}`,
-        timeout: 1000,
         headers: { 'x-rapidapi-key': '6b5e00bc90msh081909c876450a8p18ba8ajsnccef7a4fb580' }
     });
 
